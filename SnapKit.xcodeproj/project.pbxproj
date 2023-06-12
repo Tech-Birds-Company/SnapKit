@@ -12,6 +12,7 @@
 		5D64AC0028D0879500FFEC29 /* libswiftCoreGraphics.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D64ABFF28D0878A00FFEC29 /* libswiftCoreGraphics.tbd */; };
 		7E1CB2AE227BB5520066B6C0 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1CB2AD227BB5520066B6C0 /* ConstraintDirectionalInsetTarget.swift */; };
 		7E1CB2B0227BBDF70066B6C0 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1CB2AF227BBDF70066B6C0 /* ConstraintDirectionalInsets.swift */; };
+		E1D82E9B2A3788E200B40CDD /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D82E9A2A3788E200B40CDD /* UIView+Extensions.swift */; };
 		EE235F5F1C5785BC00C08960 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F5E1C5785BC00C08960 /* Debugging.swift */; };
 		EE235F6D1C5785C600C08960 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F621C5785C600C08960 /* Constraint.swift */; };
 		EE235F701C5785C600C08960 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE235F631C5785C600C08960 /* ConstraintDescription.swift */; };
@@ -56,6 +57,7 @@
 		5D64ABFF28D0878A00FFEC29 /* libswiftCoreGraphics.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreGraphics.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS16.0.sdk/usr/lib/swift/libswiftCoreGraphics.tbd; sourceTree = DEVELOPER_DIR; };
 		7E1CB2AD227BB5520066B6C0 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		7E1CB2AF227BBDF70066B6C0 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		E1D82E9A2A3788E200B40CDD /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		EE235F5E1C5785BC00C08960 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
 		EE235F621C5785C600C08960 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
 		EE235F631C5785C600C08960 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				EEF68FAF1D784FB100980C26 /* ConstraintLayoutGuide+Extensions.swift */,
 				EEF68FB31D784FBA00980C26 /* UILayoutSupport+Extensions.swift */,
 				3CA7D6C124592D4D005E10C2 /* ConstraintMakerRelatable+Extensions.swift */,
+				E1D82E9A2A3788E200B40CDD /* UIView+Extensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				EE235F9D1C5785CE00C08960 /* ConstraintMultiplierTarget.swift in Sources */,
 				EE235FC01C5785DC00C08960 /* ConstraintViewDSL.swift in Sources */,
 				EE235F5F1C5785BC00C08960 /* Debugging.swift in Sources */,
+				E1D82E9B2A3788E200B40CDD /* UIView+Extensions.swift in Sources */,
 				EE235FC31C5785DC00C08960 /* ConstraintLayoutSupportDSL.swift in Sources */,
 				3CA7D6C224592D4D005E10C2 /* ConstraintMakerRelatable+Extensions.swift in Sources */,
 				EE235F7F1C5785C600C08960 /* ConstraintRelation.swift in Sources */,
